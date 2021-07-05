@@ -1,0 +1,25 @@
+{
+    "apiPort":8070,
+
+    "apiReadTimeout":10000,
+
+    "apiWriteTimeout":10000,
+
+    "appDBName":"nachuan",
+    
+    "webRoot":"./webroot",
+    "uploadFile":"./uploadfile",
+    "downloadFile":"./downloadfile",
+    "fileUrl":"http://121.41.5.239",
+
+    "dateOut":"20991210",
+    "userCount":50,
+
+    "mongodbUri":"mongodb://admin:nachuan@121.41.5.239:27019",
+    "mongodbConnectTimeout":5000,
+
+    "MINIO_ENDPOINT":"http://121.41.5.239:9000/",
+    "MINIO_ACCESS_KEY":"nachuan",
+    "MINIO_SECRET_KEY":"NachuanMinio",
+    "Minio_bucketName":"nachuan"
+}
